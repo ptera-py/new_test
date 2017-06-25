@@ -25,7 +25,7 @@ SECRET_KEY = '_qw#5pl$x8&9h*b&#6@2umvg32@&cdu@7w8v)s&_*6(15_en1e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ptera.pythonanywhere.com',]
+ALLOWED_HOSTS = ['ptera.pythonanywhere.com','127.0.0.1',]
 
 
 # Application definition
