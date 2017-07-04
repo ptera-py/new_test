@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-HAHA
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        {% if m %}
+            ss
+        {% endif %}
+        <ul>
+            {% for menu_item in start_menu %}
+                <li><a href="{{ menu_item.ref }}">{{ menu_item.name }}</a></li>
+            {% endfor %}
+        </ul>
+        <a href="logout">Выйти</a>
+    </body>
 </html>
